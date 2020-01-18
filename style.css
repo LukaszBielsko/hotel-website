@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+
+}
+
+h1 {
+  float: left;
+}
+
+.links {
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.links li {
+  list-style: none;
+  line-height: 4rem;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 2.7rem;
+  color: darkgreen;
+  margin: 20px;
+  padding: 10px;
+
+}
+
+.links a:hover {
+  background-color: white;
+  transition: all 0.3s;
+  border-radius: 15px;
+}
+
+.main {
+   background-image: url(https://images.unsplash.com/photo-1577132384590-9af15e72f3e2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max) ;
+  background-size: cover;
+  height: 90vh;
+}
+
+.about {
+  background-image: url(https://images.unsplash.com/photo-1577658763686-66a6fc019e31?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1600);
+  background-size: cover;
+  height: 90vh;
+
+}
