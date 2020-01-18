@@ -10,6 +10,14 @@ body {
 
 h1 {
   float: left;
+  transform: skew(52deg, -31deg);
+  position: relative;
+  top: 100px;
+  left: 50px;
+  font-size: 2.7rem;
+    background: -webkit-linear-gradient(green, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .links {
