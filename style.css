@@ -8,8 +8,6 @@ body {
 
 }
 
-
-
 h1 {
   float: left;
   transform: skew(52deg, -31deg);
@@ -17,7 +15,7 @@ h1 {
   top: 100px;
   left: 50px;
   font-size: 2.7rem;
-    background: -webkit-linear-gradient(green, yellow);
+  background: -webkit-linear-gradient(green, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -27,7 +25,7 @@ h1 {
 }
 
 .main p {
-      display: inline-block;
+    display: inline-block;
     font-size: 1.5rem;
     position: relative;
     top: 473px;
@@ -65,24 +63,31 @@ h1 {
 }
 
 .main {
-   background-image: url(https://images.unsplash.com/photo-1577132384590-9af15e72f3e2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max) ;
+  background-image: url(https://images.unsplash.com/photo-1577132384590-9af15e72f3e2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max) ;
   background-size: cover;
-  height: 90vh;
+  height: 900px;
 }
 
 .about {
   background-image: url(https://images.unsplash.com/photo-1577658763686-66a6fc019e31?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1600);
   background-size: cover;
-  height: 90vh;
+  height: 700px;
 }
 
 .about div{
   float: left;
-  margin-left: 20px;
-  width: 25%;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 200px;;
 }
 
-.info {
-  margin: 100px;
-  width: 30%;
+.about i {
+  display: block;
+}
+
+.about p {
+  margin-top: 20px;
+  display: inline-block;
+  width: 130px;
+  text-align: justify;
 }
